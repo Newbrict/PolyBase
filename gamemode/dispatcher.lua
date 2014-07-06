@@ -5,7 +5,7 @@
 
 PolyMsgs = {}
 
-function PolyMessenger ( args )
+function PolyMessanger ( args )
 	for k, v in pairs( player.GetAll() ) do
 		v:PrintMessage( HUD_PRINTCENTER, args )
 	end
